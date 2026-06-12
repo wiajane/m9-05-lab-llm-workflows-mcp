@@ -1,0 +1,3 @@
+google-genai
+# Optional stretch — connecting an MCP tool:
+mcp

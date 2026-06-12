@@ -1,0 +1,6 @@
+{
+  "A1001": { "item": "laptop",        "price": 1200, "purchased": "2026-05-20", "warranty_months": 12 },
+  "A1002": { "item": "wireless mouse", "price": 30,   "purchased": "2026-06-01", "warranty_months": 6 },
+  "A1003": { "item": "monitor",        "price": 250,  "purchased": "2025-11-15", "warranty_months": 24 },
+  "A1004": { "item": "keyboard",       "price": 80,   "purchased": "2026-03-10", "warranty_months": 12 }
+}
