@@ -1,0 +1,23 @@
+C:\Users\1124student\Documents\labs\m9-05-lab-llm-workflows-mcp>python agent_loop.py
+USER: What did order A1001 cost?
+
+[step 1] calling model …
+  → tool call : lookup_order({'order_id': 'A1001'})
+  ← tool result: Order A1001: laptop — $1200, purchased 2026-05-20, 12-month warranty.
+
+[step 2] calling model …
+
+MODEL ANSWER: The order A1001 cost $1200.
+USER: And what about three of them?
+
+[step 1] calling model …
+  → tool call : calculate({'expression': '1200 * 3'})
+  ← tool result: 3600
+
+[step 2] calling model …
+
+MODEL ANSWER: Three of them would cost $3600.
+
+
+Full conversation memory:
+  8 message(s) in history
